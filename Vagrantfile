@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
   
   # Настройка первой машины
   config.vm.define "ubuntu24-1" do |ubuntu|
-    ubuntu.vm.box = "ubuntu/jammy64"
+    ubuntu.vm.box = "ubuntu/trusty64"
     ubuntu.vm.hostname = "ubuntu24-1"
     ubuntu.vm.network "private_network", ip: "172.30.19.116"
     
@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
 
   # Настройка второй машины
   config.vm.define "ubuntu24-2" do |ubuntu|
-    ubuntu.vm.box = "ubuntu/jammy64"
+    ubuntu.vm.box = "ubuntu/trusty64"
     ubuntu.vm.hostname = "ubuntu24-2"
     ubuntu.vm.network "private_network", ip: "172.30.19.117"
     
