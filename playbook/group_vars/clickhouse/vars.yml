@@ -1,0 +1,6 @@
+---
+clickhouse_version: "24.8.2.3"
+clickhouse_packages:
+  - clickhouse-client
+  - clickhouse-server
+  - clickhouse-common-static

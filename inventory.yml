@@ -1,19 +1,19 @@
 ---
-  all:
-    hosts:
-      first:
-        ansible_host: 172.30.19.116
-      second:
-        ansible_host: 172.30.19.117
+all:
+  children:
+    vector:
+      hosts:
+        first:
+          ansible_host: 172.18.0.22
+          ansible_user: root
+          ansible_ssh_pass: "yourpassword"
+    
+    clickhouse:
+      hosts:
+        second:
+          ansible_host: 172.18.0.23
+          ansible_user: root
+          ansible_ssh_pass: "yourpassword"
 
-  vector:
-    hosts:
-      first:
-        ansible_host: 172.30.19.116
-  
-  clickhouse:
-    hosts:
-      second:
-        ansible_host: 172.30.19.117
   
 
