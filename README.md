@@ -28,5 +28,6 @@
    <img src="images/Task_7_1.png" alt="Task_7_1.png" width="700" height="auto">
 6. Результат повторного запуска `ansible-playbook site.yml -i inventory/prod.yml --diff`
    <img src="images/Task_8_1.png" alt="Task_8_1.png" width="700" height="auto">
-7. [Сыслка](https://github.com/sergeMMikh/hw_ansible_playbooks/releases/tag/08-ansible-02-playbook) на  тег `08-ansible-02-playbook`.
+7. Написал [README.md](https://github.com/sergeMMikh/hw_ansible_playbooks/blob/main/playbook/README.md) для playbook.
+7. [Сыслка](https://github.com/sergeMMikh/hw_ansible_playbooks/releases/tag/08-ansible-02-playbook) на тег `08-ansible-02-playbook`.
 ---
